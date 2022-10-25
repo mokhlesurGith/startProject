@@ -1,0 +1,71 @@
+.header{
+    width: 1500px;
+    margin: 0 auto;
+    height: 100px;
+    background: aqua;
+}
+.logo{
+    padding: 20px;
+    float: left;
+}
+.logo img{
+    width: 60%;
+    height:60%;
+}
+.manu{
+    float: right;
+    padding-top: 15px;
+}
+.manu ul{
+    list-style: none;
+}
+.manu ul li{
+    display: inline-block;
+}
+.manu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+/* Header css end */
+/* Slider css start */
+.slider{
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(45, 131, 131, 0.8),rgba(134, 48, 48, 0.6)), url(./images/slider.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.slider h1{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    font-size: 60px;
+    color: white;
+    
+}
+.slider p{
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+.slider a{
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px 35px;
+    background-color: blueviolet;
+}
+
+/* Slider css End */
