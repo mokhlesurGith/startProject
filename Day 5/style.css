@@ -1,0 +1,197 @@
+.header{
+   width: 1200px;
+   margin: 0 auto;
+   height: 100px;
+   background: aqua;
+}
+.logo{
+   padding: 20px;
+   float: left;
+}
+.logo img{
+   width: 60%;
+   height:60%;
+}
+.manu{
+   float: right;
+   padding-top: 21px;
+}
+.manu ul{
+   list-style: none;
+}
+.manu ul li{
+   display: inline-block;
+}
+.manu ul li a{
+   text-decoration: none;
+   font-size: 25px;
+   padding-right: 20px;
+   font-weight: bold;
+   transition: ease-in-out;
+}
+.manu ul li a:hover{
+    color: blue;
+}
+/* Header css end */
+/* Slider css start */
+.slider{
+   width: 1200px;
+   height: 600px;
+   margin: 0 auto;
+   background: linear-gradient(rgba(45, 131, 131, 0.8),rgba(134, 48, 48, 0.6)), url(./images/slider.png) no-repeat center;
+   background-size: cover;
+   position: relative;
+}
+.slider-inner {
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    left: 40%;
+}
+
+.slider h1{
+   font-size: 60px;
+   color: white;
+   margin-bottom: 0px;
+
+}
+.slider p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: -9px;
+}
+.slider a{
+   text-decoration: none;
+   font-size: 19px;
+   color: white;
+   /* border: 1px solid whitesmoke; */
+   border-radius: 10px;
+   padding: 10px 35px;
+   background-color: blueviolet;
+   transition: ease-in-out .4s;
+}
+.slider a:hover{
+    background-color: rgb(78, 11, 141);
+}
+
+/* Slider css End */
+
+/* hero css start */
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hero-tittle{
+    text-align: center;
+    
+}
+.hero-tittle span{
+    color: rgb(192, 10, 10);
+}
+.hero-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    gap: 10px;
+}
+.hero-card{
+    text-align: center;
+    padding: 30px 20px;
+    background-color: rgb(153, 234, 14);
+}
+.hero-card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+}
+.hero-card a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        background-color: blueviolet;
+        padding: 10px 25px;
+        border-radius: 20px;
+        /* transition: ease-in-out .4s; */
+}
+.animation-card a{
+    background-color: white;
+    color: blueviolet;
+}
+
+.hero-card a:hover{
+    /* background-color: rgb(101, 10, 187); */
+    background-color: tomato;
+    color: white;
+}
+.animation-card{
+    animation: 7s mov linear infinite;
+    position: relative;
+}
+@keyframes mov{
+    /* from{background-color: blueviolet;}
+    to{background-color: tomato;} */
+
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+
+    /* 0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:800px; top:0px;}
+    50%  {background-color:blue; left:800px; top: 100%;}
+    75%  {background-color:green; left:0px; top: 100%;}
+    100% {background-color:red; left:0px; top:0px;} */
+}
+
+/* hero css End */
+
+/* footer part css start */
+footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer-main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+    gap: 10px;
+    
+}
+.footer-block{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(174, 172, 172);
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(auto-fit,minmax(10px,auto));
+    
+}
+.footer-block h3{}
+.social{
+    position: relative;
+    left: 0;
+}
+.footer-block a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer-block a img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 8px;
+    right: 4px;
+}
+
+/* footer buttom */
+.footer-bottom{
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    background-color: rgb(113, 112, 112);
+}
+.footer-bottom p{
+    
+}
+/* footer part css End */
