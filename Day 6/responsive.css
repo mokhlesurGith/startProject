@@ -1,0 +1,46 @@
+/* responsive css Start */
+/* Extra small devices (phones, 600px and down) */
+
+    .header{
+        width: 100%;
+        height: 70px;
+     }
+     .logo{
+        display: none;
+     }
+     .manu{
+        padding-top: 10px;
+     }
+     .manu ul li a{
+        font-size: 14px;
+        padding-right: 10px;
+     }
+
+
+     /* Slider css start */
+    .slider{
+        width: 100%;
+        height: 60vh;
+    }
+    .slider-inner {
+        top: 25%;
+        left: 35%;
+    }
+    .slider h1{
+        font-size: 20px;
+    
+    }
+    .slider p {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+    .slider a{
+        font-size: 9px;
+        border-radius: 5px;
+        padding: 5px 25px;
+    }
+ 
+ /* Slider css End */
+
+
+/* resoponsive css End */
