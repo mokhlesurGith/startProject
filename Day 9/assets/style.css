@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/slider/bg_main\ \(2\).gif) center;
+}
+.cont{
+    max-width: 1015px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+/* common css end */
+
+/* header part start */
+.top_bar{
+    background-color: #9E5BBA;
+    max-height: 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 1px solid red;
+}
+
+.tap_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.tap_right a{
+    text-decoration: none;
+    color: white;
+}
+/* header part End */
+/* logo part start */
+.logo{
+    height: 100px;
+}
+.logo_left{
+    line-height: 100px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 65%;
+    padding: 3px;
+    font-size: 14px;
+}
+.logo_search button{
+    font-size: 12px;
+   border: 1px solid rgb(146, 145, 145);
+    padding: 5px;
+}
+.logo_right{
+    padding-top: 31px;
+}
+.logo_right .logo1 {
+    border-right: 1px solid rgb(186, 186, 186);
+    padding-right: 9px;
+    margin-right: 9px;
+    height: 37px;
+    margin-top: 6px;
+}
+.logo2 p{
+    margin-bottom: -1px;
+    font-size: 13px;
+}
+/* logo part end */
+
+/* horo part start */
+
+.hero_main .bannar{
+    border: 2px solid red;
+    padding: 5px;
+}
+.slider img{
+    height: 250px;
+    /* margin-top: 15px; */
+}
+/* horo part end */
+/*tab section css start */
+.tab_class a{
+    text-decoration: none;
+    color: green;
+    font-size: 14px;
+}
+/*tab section css end */

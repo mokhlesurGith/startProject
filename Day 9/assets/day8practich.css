@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* this is header part */
+
+body{
+    background: url(./images/slider/bg_main\ \(2\).gif) center center;
+}
+.header-top{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(480px,auto));
+    align-items: center; */
+    height: 40px;
+    background-color:blueviolet;
+    color: white;
+    border-bottom: 1px solid red;
+    padding: 0 10px;
+}
+.header-right{
+    margin-right: 10px;
+    display: flex;
+
+}
+.header-right a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 17px;
+}
