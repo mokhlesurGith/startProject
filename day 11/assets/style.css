@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/slider/bg_main\ \(2\).gif) repeat-y scroll center top;
+}
+.cont{
+    width: 996px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header_top{
+    background-color: blueviolet;
+    border-bottom:1px solid red;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(248, 248, 248);
+}
+.header_top a{
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid rgb(255, 255, 255);
+    padding-left: 5px;
+    margin-left: 5px;
+}
+/* search section */
+
+.search{
+    height: 80px;
+}
+.search .img img{
+    height: 80%;
+}
+.search .img{
+    line-height: 80px;
+}
+.search .search_bar {
+    padding: 20px 0;
+}
+.search .social{
+    display: flex;
+}
+.search .social {
+    display: flex;
+    align-items: center;
+}
+.search .social .img_1 {
+    border-right: 1px solid white;
+    padding-right: 5px;
+    margin-right: 5px;
+    height: 34px;
+    margin-top: 10px;
+}
+.search .social .img_2 p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+/* search section end */
+/* main manu start */
+.main_manu li{
+    border-right: 1px solid gray;
+}
+/* main manu End */
+/* sub_manu css start */
+.sub_manu a{
+    font-size: 14px;
+}
+/* sub_manu css End */
+/* about css start */
+.about a {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(47, 47, 47);
+}
+/* about css End */
+/* tab part css start */
+.tab img {
+    width: 100%;
+    height: 64px;
+    margin-top: 9px;
+}
+/* tab part css end */
+.gift_part iframe{
+    width: 100%;
+}
+/* side bar css start */
+.side_bar_img img{
+    width: 100%;
+    margin-top: 5px;
+}
+.side_vide img {
+    width: 100%;
+    height: 230px;
+}
+/* side bar css End */
+/* footer css start */
+.footer_top{
+    background: url(./images/footer/footer_top_bg.png) center no-repeat;
+    height: 20vh;
+}
+
+.footer_bottom a {
+    font-size: 11px;
+    padding: 0px 10px 0 0 !important;
+    text-decoration: none;
+}
+.footer_bottom img{
+    width: 100%;
+}
+.footer_bottom p{
+    font-size: 11px;
+    padding: 0px 10px;
+}
+/* footer css End */
