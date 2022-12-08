@@ -1,0 +1,57 @@
+/*
+    Theme name: First Theme
+    version: 1.0
+    Author: Kazi Nozrul Islam
+*/
+
+/* css part start */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+/* slider css */
+.slider{
+    position: relative;
+}
+/* slider css end */
+/* logo part css */
+.logo_part{
+    position: absolute;
+    top: 5%; 
+    width: 100%;
+    z-index: 1;
+}
+.main_menu{
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+.menu_1:nth-child(1) li{
+    border-left: 1px solid rgb(223, 222, 222);
+}
+.menu_1 li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: black;
+    font-size: 15px;
+    border-right: 1px solid rgb(223, 222, 222);
+}
+.menu_1 li a:hover{
+    background-color: #344807;
+    color: white;
+}
+
+/* hero_bottom css */
+.hero_bottom{
+    position: relative;
+}
+.hero_bottom img {
+    position: absolute;
+    top: -29px;
+    left: 42%;
+}
+/*  */
